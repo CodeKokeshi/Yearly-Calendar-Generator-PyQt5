@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>253</width>
+    <height>75</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>253</width>
+    <height>75</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>253</width>
+    <height>75</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Calendar</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Downloads/piginspi3.png</normaloff>../../Downloads/piginspi3.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string> Year:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="Field"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Random">
+      <property name="text">
+       <string>Random</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Show">
+      <property name="text">
+       <string>Show</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
