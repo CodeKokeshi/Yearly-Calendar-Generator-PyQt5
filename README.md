@@ -3,3 +3,5 @@ My first project using PyQt5 and QtDesigner. I made a yearly calendar generator 
 
 # Description
 Nah, no need to describe this app. You input a year (even negative values will work -this is intentional) and it will output an entire calendar.
+
+# Written by CodeKokeshi - December 11, 2023
